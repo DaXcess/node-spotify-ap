@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "build/",
+    "lib": ["ES6", "DOM"],
+    "esModuleInterop": true,
+    "types": ["node"],
+    "sourceMap": true,
+    "moduleResolution": "Node"
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
